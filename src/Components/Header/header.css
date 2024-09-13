@@ -1,0 +1,134 @@
+
+.header-cover div#navbarsExample07 {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  button.navbar-toggler:focus {
+    outline: 0px;
+  }
+  
+  .header-cover .bg-dark .navbar-toggler {
+    margin: 5px;
+    border-color: rgb(0 0 0);
+    padding: 0px 10px;
+    background: rgb(0 0 0);
+  }
+  
+  .header-cover .navbar-dark .navbar-nav .nav-link {
+    padding: 10px 25px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  
+  .header-cover .nav-item.active a.nav-link {
+
+      color: #fff !important;
+      background: #ff0e10;
+  
+  }
+  
+  .header-cover .nav-item:hover .header-cover .navbar-dark .navbar-nav .nav-link {
+    background:#ff0e10;
+    color: #fff;
+  }
+  
+  .header-cover .nav-item:hover a.nav-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  .header-cover .navbar-nav {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .container-fluid {
+    width: 90%;
+  }
+  .header-top-details {
+    border-bottom: 5px solid rgb(255 249 234);
+    background: #ffffff;
+  }
+  
+.header-cover li.nav-item {
+    margin: 0px 15px;
+    background: #d7d7d7;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
+  ul.navbar-nav .nav-item.active {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .bg-dark .navbar-toggler {
+    float: right;
+  }
+  
+  .bg-dark .container {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+  
+  .header-cover .bg-dark {
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: transparent !important;
+  }
+  
+  .header-top-marquee {
+    line-height: normal;
+    padding: 5px 10px 2px;
+    color: rgb(0 0 0);
+    position: relative;
+    font-weight: bold;
+    background: #d7d7d7;
+  }
+  
+  .logo-cover a img {
+    display: block;
+    margin: 0px auto;
+  }
+  
+  .logo-cover {
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(142 144 147);
+    /* box-shadow: 0px 0px 1px 0px #ffd255; */
+  }
+
+
+  /* responsive css start */
+
+
+  @media screen and (max-width: 1199px) {
+
+    .header-cover .navbar-dark .navbar-nav .nav-link { font-size: 14px;    padding: 10px 15px; }
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .navbar-nav {
+        margin: 0px;
+    }
+    .navbar-brand.res { display: block; width: 171px; }
+    .navbar-brand.res img { width: 100%; }
+    .navbar-default .navbar-nav > li { display: block; }
+    .right .navbar-nav { text-align: left; float: left; }
+    .navbar-nav { margin: 0px; }
+    .right .navbar-nav { width: 100%; }
+    .navbar-default .navbar-nav > li > a { font-size: 16px; margin-bottom: 10px; }
+    .navbar-default .navbar-nav > li > a.active::after, .navbar-default .navbar-nav > li > a:hover::after, .center { display: none; }
+}
+
+  @media screen and (max-width: 420px) {
+
+    .header-top-marquee { font-size: 11px; }
+    .logo-cover { padding: 5px 0px; }
+
+  }

@@ -1,0 +1,204 @@
+.booking-no {
+    padding: 5px 0px 10px;
+    box-shadow: rgb(167, 167, 167) 0px 0px 15px 1px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .booking-no p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .booking-no h6 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: rgb(12, 35, 41);
+  }
+  
+.app-icon a img {
+    width: 35%;
+  }
+  
+  
+  .footer-company-name {
+    display: inline-block;
+    float: right;
+  }
+  
+  .footer-company-name a.starline {
+    letter-spacing: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .footer-company-name.text-right img {
+    height: 12px;
+  }
+  
+  .cover-copyright-tittle {
+    display: inline-block;
+  }
+  
+  .logo_footer {
+    text-align: center;
+  }
+  
+  .logo_footer a img {
+    width: 150px;
+  }
+  
+  .address_cover h3 {
+    color: rgb(207, 49, 53);
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .address_cover p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .address_cover {
+    text-align: center;
+  }
+  
+  .footer-cover {
+    margin-top: 20px;
+    clear: both;
+  }
+  
+.cnt-cover.app-iconlogo {
+    margin-top: 10px;
+    border: 0px;
+    background-color: transparent;
+  }
+
+
+  
+
+.cnt-cover {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 15px 0px;
+    background: #fff;
+    border: 2px solid #d7d7d7;
+    /* animation: color-change 2s linear infinite; */
+  }
+  
+  @keyframes color-change {
+    0%,
+    100% {
+      border-color: #a58a0f;
+    }
+  
+    25% {
+      border-color: #f0b324;
+    }
+  
+    50% {
+      border-color: #fff;
+    }
+  
+    75% {
+      border-color: f0b324;
+    }
+  }
+  
+  .cnt-cover h2 {
+    margin: 0px 0px 4px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+  }
+  .cnt-cover i {
+    margin-right: 10px;
+  }
+  .cnt-cover p {
+    margin: 0px;
+    color: rgb(0 0 0);
+    font-weight: 400;
+  }
+  .header-top-marquee {
+    line-height: normal;
+    padding: 5px 10px 2px;
+    color: rgb(0 0 0);
+    position: relative;
+    font-weight: bold;
+    background: #d7d7d7;
+  }
+
+  .cover-copyright {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(167, 167, 167) 0px 0px 3px 1px;
+  }
+  
+.cover-copyright-tittle h6 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* responsive css start */
+  @media screen and (max-width: 1199px) {
+  .cnt-cover p { font-size: 12px; }
+  .app-icon a img { width: 15%; }
+
+
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .cnt-cover h2 { font-size: 16px; margin-bottom: 5px; }
+    .cnt-cover p { font-size: 13px; margin-bottom: 0px; }
+    .app-icon a img { width: 120px; }
+    .logo_footer { text-align: center; }
+    .logo_footer a img { width: 200px; }
+    .address_cover { padding: 0px 30px; text-align: center; }
+    .address_cover h3 { font-size: 16px; margin-bottom: 5px; }
+    .address_cover p { font-size: 13px; }
+    .cnt-cover { margin: 10px 0px; padding: 5px 0px; }
+    .cnt-cover { margin-top: 10px; }
+  }
+
+
+
+  @media screen and (max-width: 420px) {
+    .footer-company-name { display: inline-block; float: none; }
+    .cover-copyright-tittle h6 { font-size: 12px; }
+    .refrance-title p { font-size: 14px; }
+    .cnt-cover h2 { font-size: 14px; margin-bottom: 2px; }
+    .cnt-cover p { font-size: 13px; margin-bottom: 0px; }
+    .app-icon a img { width: 100px; }
+    .logo_footer { text-align: center; }
+    .logo_footer a img { width: 180px; }
+    .address_cover { padding: 0px 30px; text-align: center; }
+    .address_cover h3 { font-size: 14px; margin-bottom: 5px; }
+    .address_cover p { font-size: 12px; }
+    .cnt-cover { margin: 4px 0px; padding: 5px 0px; }
+
+    footer .col-lg-3.mt-3.align-self-center {
+        margin-top: 5px !important;
+    }
+    .gold-cover-tittle{margin-top: 0px;}
+    .gold-cover-tittle h4 {top: -15%;}
+
+  }

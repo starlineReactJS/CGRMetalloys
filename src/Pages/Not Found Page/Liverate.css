@@ -1,0 +1,362 @@
+
+.cover_bs {
+  padding: 1px 0px 0px;
+  border: 2px solid #d7d7d7;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  /* box-shadow: 2px 3px 11px 0px #000000; */
+  background: #fefeff;
+}
+
+
+
+.gold-cover-tittle:nth-child(2) {
+  order: -3;
+}
+
+.gold-cover-tittle {
+  /* background: white; */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.gold-cover-tittle h4 {
+  border-radius: 50px;
+  color: rgb(0 0 0);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 0px;
+  position: absolute;
+  background: #ffffff;
+  top: 3%;
+  z-index: 999;
+  border-width: 2px 2px 0px;
+  left: 30px;
+  right: 0px;
+  width: 40%;
+  border: 2px solid #d7d7d7;
+}
+
+.hl-rate-cover {
+  background: #d7d7d7;
+  margin: 0px;
+  float: left;
+  border-top: 1px solid #ffffff;
+  width: 100%;
+}
+
+.buy-sell-cover {
+  display: inline-block;
+  justify-content: center;
+  float: left;
+  width: 100%;
+  margin: 10px 0px 0px;
+}
+
+.buy-sell-cover h6 {
+  color: rgb(3 19 43);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px;
+  display: block;
+  margin-top: 13px;
+}
+
+.buy-sell-cover h6:last-child {
+  border-right: 0px;
+}
+
+.buy-sell-cover h5 {
+  color: rgb(0 0 0);
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+.rating-cover {
+  width: 50%;
+  float: left;
+}
+
+.rating-cover:first-child {
+  border-left: 0px;
+}
+
+.hl-rate-cover p {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0 0 0);
+  padding: 4px 16px;
+  margin-bottom: 0px;
+}
+
+.buy-sell-cover i {
+  color: rgb(51, 7, 7);
+  font-size: 22px;
+  margin: 0px 10px;
+  align-self: center;
+}
+
+
+
+.mn-rate-cover .bgs {
+  display: block;
+  font-size: 16px;
+  color: rgb(142 144 147);
+  line-height: normal;
+  padding: 3px 0px;
+  font-weight: 500;
+}
+
+.mn-rate-cover {
+  display: inline-block;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.product-cover-tabs {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+
+.main-product {
+  position: relative;
+  margin: 10px 0px;
+}
+
+#divHeader {
+  width: 100%;
+  float: left;
+  background: #d7d7d7;
+  margin-bottom: 10px;
+}
+
+div#divProduct {
+  clear: both;
+}
+
+#divHeader .table {
+  width: 100%;
+  margin: 0px;
+}
+
+.product-title-color .p-h.p0 {
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.content-cover {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  background: #fff;
+}
+
+.content-cover:last-child {
+  margin-bottom: 0px;
+}
+
+.p-h.p0 {
+  width: 25%;
+  padding: 7px 0px 7px 50px;
+}
+
+.p-h.ph {
+  width: 15%;
+}
+
+.product-title-color .p-h.ph span,
+.product-title-color .p-h.p0 span {
+  color: rgb(0 0 0);
+}
+
+.product-title-color .p-h.ph {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px 0px;
+}
+
+.product-title-color span {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.product-name {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.main-product-cover h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(0 0 0);
+}
+
+.product-rate {
+  text-align: center;
+}
+
+.mn-rate-cover .bgm {
+  font-size: 32px;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: 600;
+  color: rgb(0 0 0);
+}
+
+table {
+  width: 100%;
+}
+
+.e {
+  color: rgb(255, 255, 255);
+}
+
+.product-rate a input[type="button"] {
+  background: rgb(15 23 42);
+  padding: 4px 15px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border: 0px;
+  outline: 0px;
+  border-radius: 5px;
+}
+
+.table td,
+.table th {
+  border: 0px;
+}
+
+.wd {
+  width: 17%;
+}
+
+
+
+
+span.bgm.e.greendbg {
+  padding: 4px 15px;
+}
+
+span.bgm.e.redbg {
+  padding: 4px 15px;
+}
+
+.h {
+  border-radius: 3px;
+  background: rgb(0, 128, 0);
+  color: rgb(255, 255, 255) !important;
+}
+
+.l {
+  border-radius: 3px;
+  background: rgb(220, 0, 0);
+  color: rgb(255, 255, 255) !important;
+}
+
+.e {
+  background: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* responsive css start */
+
+  @media screen and (max-width: 1199px) {
+    .mn-rate-cover .bgm { font-size: 22px; padding: 3px 4px; width: auto; }
+    .hl-rate-cover p { font-size: 14px; margin-bottom: 0px;}
+    .buy-sell-cover h6 { font-size: 14px; }
+    .buy-sell-cover h5 { font-size: 12px; }
+    .buy-sell-cover i { font-size: 18px; }
+    .gold-cover-tittle h4 { font-size: 16px; }
+
+    .main-product-cover h3 { font-size: 18px !important; }
+    .product-title-color .p-h.p0 { font-size: 18px; }
+    .product-title-color .p-h.ph { font-size: 18px; }
+    .product-title-color span { font-size: 20px; }
+ 
+
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .gold-cover-tittle h4{width: 60%;}
+    .buy-sell-cover h5 {
+      font-size: 18px;
+  }
+
+  }
+
+
+  @media screen and (max-width: 767px) {
+  
+    .mn-rate-cover .bgm { font-size: 22px; padding: 3px 6px; width: auto; }
+    .product-title-color .p-h.ph span, .product-title-color .p-h.p0 span { font-size: 16px; }
+    .p-h.p0 { padding: 7px 0px 7px 10px; }
+    #divHeader { border-radius: 0px; }
+    .buy-sell-cover h6 { font-size: 16px; }
+    .buy-sell-cover h5 { font-size: 16px; }
+    .gold-cover-tittle h4 { font-size: 18px; }
+    .mn-rate-cover .bgs {display: block;font-size: 12px;}
+    .main-product-cover h3 { font-size: 14px !important; }
+    .logo-cover img { width: 250px;}
+    .gold-cover-tittle h4 {
+      width: 45%;
+  }
+
+
+  }
+
+
+
+@media screen and (max-width: 420px) {
+  .gold-cover-tittle h4 {
+    width: 45%;
+}
+  .logo-cover img { width: 150px;}
+
+  .mn-rate-cover .bgm { font-size: 14px; width: auto; }
+  .product-title-color .p-h.ph span, .product-title-color .p-h.p0 span { font-size: 11px; }
+  .product-title-color .p-h.ph { width: 15%; padding: 0px; }
+  .product-title-color .p-h.p0 { width: 25%; padding: 2px 15px; }
+  .buy-sell-cover h6 { font-size: 12px;margin-bottom: 0;}
+  .buy-sell-cover h5 { font-size: 14px; }
+  .gold-cover-tittle h4 { font-size: 14px; }
+  .hl-rate-cover p { font-size: 12px;  }
+  .hl-rate-cover { padding: 0px; margin: 0px; }
+
+  .image-maa { margin-bottom: 10px; }
+  
+  .buy-sell-cover i { font-size: 18px; }
+  .p-h.p0 { padding: 7px 0px 7px 5px; }
+  .header-cover::after { width: auto; }
+  .logo-cover::before { width: auto; }
+  .logo-cover::after { width: auto; }
+  .cover_bs::after { height: 34px; content: ""; left: 50%; top: 33px; right: 0px; }
+
+
+
+}

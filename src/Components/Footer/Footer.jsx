@@ -75,11 +75,11 @@ export default function Footer() {
                                 <div className="cover-copyright-tittle">
                                     <h6>{footerData?.copyright}</h6>
                                 </div>
-                                <p className="footer-company-name text-right">
+                                {/* <p className="footer-company-name text-right">
                                     <a className="starline" href={footerData?.companyLink} target="_blank" rel="noreferrer">
                                         {footerData?.companyName} <img src={footerData?.logo} alt="" />
                                     </a>
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

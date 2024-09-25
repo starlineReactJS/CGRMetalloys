@@ -44,10 +44,10 @@ export default function Footer() {
                         <div className="cnt-cover">
                             <h2>AVAILABLE ON</h2>
                             <div className="app-icon">
-                                <a href={androidUrl} target="_blank" rel='noreferrer'>
+                                <a href={'https://play.google.com/store/apps/details?id=com.cgrmetalloys'} target="_blank" rel='noreferrer'>
                                     <img src={android} alt='Android' />
                                 </a>
-                                <a href={iosUrl} target="_blank" rel='noreferrer'><img src={ios} alt='Ios' />
+                                <a href={'https://apps.apple.com/us/app/cgr-gold/id6695744233'} target="_blank" rel='noreferrer'><img src={ios} alt='Ios' />
                                 </a>
                             </div>
                         </div>
